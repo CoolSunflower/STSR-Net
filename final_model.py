@@ -11,7 +11,7 @@ from tqdm import tqdm
 import math # For get_lr_scheduler
 from graph import create_and_save_graph
 
-FILENAME = 'DATAfile_case1_damagePattern0'
+FILENAME = 'DATAfile_case1_damagePattern1'
 
 class WindowedAccelerationDataset(torch.utils.data.Dataset):
     def __init__(self, graph_data, window_size=48, history_size=5, stride=16):
